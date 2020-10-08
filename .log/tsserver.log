@@ -1,0 +1,1086 @@
+Info 0    [21:33:19.472] Starting TS Server
+Info 1    [21:33:19.473] Version: 4.0.3
+Info 2    [21:33:19.473] Arguments: /usr/bin/node /usr/bin/tsserver --logFile /home/yyoncho/Sources/my-app/.log/tsserver.log --logVerbosity verbose --cancellationPipeName /tmp/75a829a2d9a289e79ec350a030f59de9/tscancellation*
+Info 3    [21:33:19.473] Platform: linux NodeVersion: 12 CaseSensitive: true
+Info 4    [21:33:19.473] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [21:33:19.475] Binding...
+Info 6    [21:33:19.481] request:
+    {"command":"configure","seq":1,"type":"request","arguments":{"preferences":{"allowTextChangesInNewFiles":true}}}
+Info 7    [21:33:19.482] response:
+    {"seq":0,"type":"response","command":"configure","request_seq":1,"success":true}
+Perf 8    [21:33:19.483] 1::configure: async elapsed time (in milliseconds) 1.2327
+Info 9    [21:33:19.483] request:
+    {"command":"open","seq":2,"type":"request","arguments":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","fileContent":"module.exports = {\n    \"env\": {\n        \"browser\": true,\n        \"es6\": true\n    },\n    \"extends\": [\n        \"eslint:recommended\",\n        \"plugin:react/recommended\"\n    ],\n    \"globals\": {\n        \"Atomics\": \"readonly\",\n        \"SharedArrayBuffer\": \"readonly\"\n    },\n    \"parserOptions\": {\n        \"ecmaFeatures\": {\n            \"jsx\": true\n        },\n        \"ecmaVersion\": 2018,\n        \"sourceType\": \"module\"\n    },\n    \"plugins\": [\n        \"react\"\n    ],\n    \"rules\": {\n        \"no-extra-semi\":\"error\"\n    }\n};\n","scriptKindName":"JS","projectRootPath":"/home/yyoncho/Sources/my-app"}}
+Info 10   [21:33:19.484] Search path: /home/yyoncho/Sources/my-app
+Info 11   [21:33:19.484] ConfigFilePresence:: Current Watches: :: File: /home/yyoncho/Sources/my-app/tsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/yyoncho/Sources/my-app/.eslintrc.js Status: File added to open files impacted by this config file
+Info 12   [21:33:19.485] ConfigFilePresence:: Current Watches: :: File: /home/yyoncho/Sources/my-app/jsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/yyoncho/Sources/my-app/.eslintrc.js Status: File added to open files impacted by this config file
+Info 13   [21:33:19.485] For info: /home/yyoncho/Sources/my-app/.eslintrc.js :: Config file name: /home/yyoncho/Sources/my-app/jsconfig.json
+Info 14   [21:33:19.485] Opened configuration file /home/yyoncho/Sources/my-app/jsconfig.json
+Info 15   [21:33:19.486] FileWatcher:: Added:: WatchInfo: /home/yyoncho/Sources/my-app/jsconfig.json 2000 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Config file
+Info 16   [21:33:19.487] event:
+    {"seq":0,"type":"event","event":"projectLoadingStart","body":{"projectName":"/home/yyoncho/Sources/my-app/jsconfig.json","reason":"Creating possible configured project for /home/yyoncho/Sources/my-app/.eslintrc.js to open"}}
+Info 17   [21:33:19.499] Config: /home/yyoncho/Sources/my-app/jsconfig.json : {
+ "rootNames": [
+  "/home/yyoncho/Sources/my-app/src/App.js",
+  "/home/yyoncho/Sources/my-app/src/App.test.js",
+  "/home/yyoncho/Sources/my-app/src/index.js",
+  "/home/yyoncho/Sources/my-app/src/serviceWorker.js",
+  "/home/yyoncho/Sources/my-app/src/setupTests.js"
+ ],
+ "options": {
+  "allowJs": true,
+  "maxNodeModuleJsDepth": 2,
+  "allowSyntheticDefaultImports": true,
+  "skipLibCheck": true,
+  "noEmit": true,
+  "module": 1,
+  "target": 3,
+  "jsx": 1,
+  "configFilePath": "/home/yyoncho/Sources/my-app/jsconfig.json"
+ }
+}
+Info 18   [21:33:19.500] DirectoryWatcher:: Added:: WatchInfo: /home/yyoncho/Sources/my-app 1 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Wild card directory
+Info 19   [21:33:20.235] Elapsed:: 735ms DirectoryWatcher:: Added:: WatchInfo: /home/yyoncho/Sources/my-app 1 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Wild card directory
+Info 20   [21:33:20.237] FileWatcher:: Added:: WatchInfo: /home/yyoncho/Sources/my-app/src/App.js 500 undefined Project:  WatchType: Closed Script info
+Info 21   [21:33:20.238] FileWatcher:: Added:: WatchInfo: /home/yyoncho/Sources/my-app/src/App.test.js 500 undefined Project:  WatchType: Closed Script info
+Info 22   [21:33:20.238] FileWatcher:: Added:: WatchInfo: /home/yyoncho/Sources/my-app/src/index.js 500 undefined Project:  WatchType: Closed Script info
+Info 23   [21:33:20.238] FileWatcher:: Added:: WatchInfo: /home/yyoncho/Sources/my-app/src/serviceWorker.js 500 undefined Project:  WatchType: Closed Script info
+Info 24   [21:33:20.239] FileWatcher:: Added:: WatchInfo: /home/yyoncho/Sources/my-app/src/setupTests.js 500 undefined Project:  WatchType: Closed Script info
+Info 25   [21:33:20.312] Starting updateGraphWorker: Project: /home/yyoncho/Sources/my-app/jsconfig.json
+Info 26   [21:33:20.335] DirectoryWatcher:: Added:: WatchInfo: /home/yyoncho/Sources/my-app/src 1 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Failed Lookup Locations
+Info 27   [21:33:20.335] Elapsed:: 0ms DirectoryWatcher:: Added:: WatchInfo: /home/yyoncho/Sources/my-app/src 1 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Failed Lookup Locations
+Info 28   [21:33:20.337] DirectoryWatcher:: Added:: WatchInfo: /home/yyoncho/Sources/my-app/node_modules 1 undefined Project:  WatchType: node_modules for closed script infos in them
+Info 29   [21:33:20.337] Elapsed:: 0ms DirectoryWatcher:: Added:: WatchInfo: /home/yyoncho/Sources/my-app/node_modules 1 undefined Project:  WatchType: node_modules for closed script infos in them
+Info 30   [21:33:20.803] DirectoryWatcher:: Added:: WatchInfo: /home/yyoncho/Sources/my-app/node_modules 1 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Failed Lookup Locations
+Info 31   [21:33:20.803] Elapsed:: 0ms DirectoryWatcher:: Added:: WatchInfo: /home/yyoncho/Sources/my-app/node_modules 1 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Failed Lookup Locations
+Info 32   [21:33:21.406] DirectoryWatcher:: Added:: WatchInfo: /usr/lib/node_modules 1 undefined Project:  WatchType: node_modules for closed script infos in them
+Info 33   [21:33:21.475] Elapsed:: 69ms DirectoryWatcher:: Added:: WatchInfo: /usr/lib/node_modules 1 undefined Project:  WatchType: node_modules for closed script infos in them
+Info 34   [21:33:21.582] DirectoryWatcher:: Added:: WatchInfo: /home/yyoncho/node_modules 1 undefined Project:  WatchType: node_modules for closed script infos in them
+Info 35   [21:33:21.631] Elapsed:: 49ms DirectoryWatcher:: Added:: WatchInfo: /home/yyoncho/node_modules 1 undefined Project:  WatchType: node_modules for closed script infos in them
+Info 36   [21:33:22.737] DirectoryWatcher:: Added:: WatchInfo: /home/yyoncho/Sources/my-app/node_modules/@types 1 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Type roots
+Info 37   [21:33:22.737] Elapsed:: 0ms DirectoryWatcher:: Added:: WatchInfo: /home/yyoncho/Sources/my-app/node_modules/@types 1 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Type roots
+Info 38   [21:33:22.738] Finishing updateGraphWorker: Project: /home/yyoncho/Sources/my-app/jsconfig.json Version: 1 structureChanged: true Elapsed: 2425ms
+Info 39   [21:33:22.738] Project '/home/yyoncho/Sources/my-app/jsconfig.json' (Configured)
+Info 40   [21:33:22.738] 	Files (131)
+	/usr/lib/node_modules/typescript/lib/lib.es5.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2017.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2018.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.dom.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2017.object.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2017.string.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2017.intl.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2018.intl.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2018.promise.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2018.regexp.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2020.bigint.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.esnext.intl.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/react/global.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/csstype/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/prop-types/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/react/index.d.ts
+	/home/yyoncho/Sources/my-app/src/App.js
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__react/node_modules/pretty-format/build/types.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__react/node_modules/pretty-format/build/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/matches.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/query-helpers.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/wait-for-element.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/queries.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/get-queries-for-element.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/pretty-format/build/types.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/pretty-format/build/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/screen.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/wait.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/wait-for-dom-change.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/wait-for-element-to-be-removed.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/get-node-text.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/events.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/pretty-dom.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/role-helpers.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/config.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/react-dom/test-utils/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__react/index.d.ts
+	/home/yyoncho/Sources/my-app/src/App.test.js
+	/home/yyoncho/Sources/my-app/node_modules/@types/react-dom/index.d.ts
+	/home/yyoncho/Sources/my-app/src/serviceWorker.js
+	/home/yyoncho/Sources/my-app/src/index.js
+	/home/yyoncho/Sources/my-app/node_modules/@testing-library/jest-dom/extend-expect.d.ts
+	/home/yyoncho/Sources/my-app/src/setupTests.js
+	/home/yyoncho/Sources/my-app/node_modules/@babel/types/lib/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/babel__generator/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/babel__traverse/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@babel/parser/typings/babel-parser.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/babel__template/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/babel__core/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/eslint-visitor-keys/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/globals.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/async_hooks.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/buffer.d.ts
+	/home/yyoncho/.cache/typescript/4.0/node_modules/@types/node/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/child_process.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/cluster.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/console.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/constants.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/crypto.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/dgram.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/dns.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/domain.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/events.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/fs.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/fs/promises.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/http.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/http2.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/https.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/inspector.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/module.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/net.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/os.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/path.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/perf_hooks.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/process.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/punycode.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/querystring.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/readline.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/repl.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/stream.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/string_decoder.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/timers.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/tls.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/trace_events.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/tty.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/url.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/util.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/v8.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/vm.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/worker_threads.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/zlib.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/ts3.4/base.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/globals.global.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/wasi.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/ts3.6/base.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/assert.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/base.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/minimatch/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/glob/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/istanbul-lib-coverage/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/istanbul-lib-report/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/istanbul-reports/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/json-schema/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/parse-json/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/q/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/stack-utils/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/yargs-parser/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/yargs/index.d.ts
+	/home/yyoncho/node_modules/@types/color-name/index.d.ts
+
+Info 41   [21:33:22.738] -----------------------------------------------
+Info 42   [21:33:22.740] Scheduling throttled operation:
+    {"projectName":"/home/yyoncho/Sources/my-app/jsconfig.json","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/yyoncho/Sources/my-app/src/App.js","/home/yyoncho/Sources/my-app/src/App.test.js","/home/yyoncho/Sources/my-app/src/serviceWorker.js","/home/yyoncho/Sources/my-app/src/index.js","/home/yyoncho/Sources/my-app/src/setupTests.js"],"compilerOptions":{"allowJs":true,"maxNodeModuleJsDepth":2,"allowSyntheticDefaultImports":true,"skipLibCheck":true,"noEmit":true,"module":1,"target":3,"jsx":1,"configFilePath":"/home/yyoncho/Sources/my-app/jsconfig.json","allowNonTsExtensions":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/yyoncho/Sources/my-app","kind":"discover"}
+Info 43   [21:33:22.740] Scheduling request for: /home/yyoncho/Sources/my-app/jsconfig.json
+Info 44   [21:33:22.741] event:
+    {"seq":0,"type":"event","event":"projectLoadingFinish","body":{"projectName":"/home/yyoncho/Sources/my-app/jsconfig.json"}}
+Info 45   [21:33:22.743] event:
+    {"seq":0,"type":"event","event":"telemetry","body":{"telemetryEventName":"projectInfo","payload":{"projectId":"642691f01b0babf38ee7b0f4728df7e0147fd7de6b02c629285e9910d77a7584","fileStats":{"js":5,"jsSize":6509,"jsx":0,"jsxSize":0,"ts":0,"tsSize":0,"tsx":0,"tsxSize":0,"dts":126,"dtsSize":3319671,"deferred":0,"deferredSize":0},"compilerOptions":{"allowJs":true,"maxNodeModuleJsDepth":2,"allowSyntheticDefaultImports":true,"skipLibCheck":true,"noEmit":true,"module":"commonjs","target":"es2016","jsx":"preserve"},"typeAcquisition":{"enable":true,"include":false,"exclude":false},"extends":false,"files":false,"include":false,"exclude":false,"compileOnSave":false,"configFileName":"jsconfig.json","projectType":"configured","languageServiceEnabled":true,"version":"4.0.3"}}}
+Info 46   [21:33:22.750] event:
+    {"seq":0,"type":"event","event":"configFileDiag","body":{"triggerFile":"/home/yyoncho/Sources/my-app/.eslintrc.js","configFile":"/home/yyoncho/Sources/my-app/jsconfig.json","diagnostics":[{"start":{"line":8,"offset":9},"end":{"line":8,"offset":31},"text":"Unknown compiler option 'allowNonTsExtensions'.","code":5023,"category":"error","fileName":"/home/yyoncho/Sources/my-app/jsconfig.json"}]}}
+Info 47   [21:33:22.751] ConfigFilePresence:: Current Watches: :: File: /home/yyoncho/Sources/my-app/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/yyoncho/Sources/my-app/.eslintrc.js OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 48   [21:33:22.751] FileWatcher:: Added:: WatchInfo: /home/yyoncho/Sources/my-app/tsconfig.json 2000 undefined Project:  WatchType: Config file for the inferred project root
+Info 49   [21:33:22.751] ConfigFilePresence:: Current Watches: Config file for the inferred project root:: File: /home/yyoncho/Sources/my-app/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/yyoncho/Sources/my-app/.eslintrc.js OtherOpenFiles:  Status: Updated the callback
+Info 50   [21:33:22.751] ConfigFilePresence:: Current Watches: Config file:: File: /home/yyoncho/Sources/my-app/jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/yyoncho/Sources/my-app/.eslintrc.js OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 51   [21:33:22.752] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 52   [21:33:23.266] DirectoryWatcher:: Added:: WatchInfo: /home/yyoncho/Sources/my-app/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 53   [21:33:23.266] Elapsed:: 0ms DirectoryWatcher:: Added:: WatchInfo: /home/yyoncho/Sources/my-app/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 54   [21:33:23.769] DirectoryWatcher:: Added:: WatchInfo: /home/yyoncho/Sources/my-app/node_modules/@types 1 undefined Project: /dev/null/inferredProject1* WatchType: Type roots
+Info 55   [21:33:23.769] Elapsed:: 0ms DirectoryWatcher:: Added:: WatchInfo: /home/yyoncho/Sources/my-app/node_modules/@types 1 undefined Project: /dev/null/inferredProject1* WatchType: Type roots
+Info 56   [21:33:23.769] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 1017ms
+Info 57   [21:33:23.769] Project '/dev/null/inferredProject1*' (Inferred)
+Info 58   [21:33:23.769] 	Files (125)
+	/usr/lib/node_modules/typescript/lib/lib.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es5.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2017.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2018.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.dom.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2017.object.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2017.string.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2017.intl.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2018.intl.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2018.promise.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2018.regexp.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2020.bigint.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.esnext.intl.d.ts
+	/home/yyoncho/Sources/my-app/.eslintrc.js
+	/home/yyoncho/Sources/my-app/node_modules/@babel/types/lib/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/babel__generator/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/babel__traverse/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@babel/parser/typings/babel-parser.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/babel__template/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/babel__core/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/eslint-visitor-keys/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/globals.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/async_hooks.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/buffer.d.ts
+	/home/yyoncho/.cache/typescript/4.0/node_modules/@types/node/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/child_process.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/cluster.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/console.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/constants.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/crypto.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/dgram.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/dns.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/domain.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/events.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/fs.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/fs/promises.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/http.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/http2.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/https.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/inspector.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/module.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/net.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/os.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/path.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/perf_hooks.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/process.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/punycode.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/querystring.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/readline.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/repl.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/stream.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/string_decoder.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/timers.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/tls.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/trace_events.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/tty.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/url.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/util.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/v8.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/vm.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/worker_threads.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/zlib.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/ts3.4/base.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/globals.global.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/wasi.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/ts3.6/base.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/assert.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/base.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/minimatch/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/glob/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/istanbul-lib-coverage/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/istanbul-lib-report/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/istanbul-reports/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/json-schema/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/parse-json/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/prop-types/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/q/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/react/global.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/csstype/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/react/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/react-dom/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/stack-utils/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/matches.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/query-helpers.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/wait-for-element.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/queries.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/get-queries-for-element.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/pretty-format/build/types.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/pretty-format/build/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/screen.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/wait.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/wait-for-dom-change.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/wait-for-element-to-be-removed.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/get-node-text.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/events.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/pretty-dom.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/role-helpers.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/config.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__react/node_modules/pretty-format/build/types.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__react/node_modules/pretty-format/build/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/react-dom/test-utils/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__react/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/yargs-parser/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/yargs/index.d.ts
+	/home/yyoncho/node_modules/@types/color-name/index.d.ts
+
+Info 59   [21:33:23.769] -----------------------------------------------
+Info 60   [21:33:23.770] Scheduling throttled operation:
+    {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/yyoncho/Sources/my-app/.eslintrc.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/yyoncho/Sources/my-app","kind":"discover"}
+Info 61   [21:33:23.770] Scheduling request for: /dev/null/inferredProject1*
+Info 62   [21:33:23.771] FileWatcher:: Added:: WatchInfo: /home/yyoncho/Sources/my-app/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 63   [21:33:23.779] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 64   [21:33:23.920] DirectoryWatcher:: Added:: WatchInfo: /home/yyoncho/Sources/my-app/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 65   [21:33:23.920] Elapsed:: 0ms DirectoryWatcher:: Added:: WatchInfo: /home/yyoncho/Sources/my-app/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 66   [21:33:24.569] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true Elapsed: 789ms
+Info 67   [21:33:24.569] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 68   [21:33:24.569] 	Files (58)
+	/home/yyoncho/Sources/my-app/node_modules/@testing-library/user-event/typings/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/globals.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/async_hooks.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/buffer.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/events/events.js
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/child_process.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/cluster.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/util/util.js
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/console.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/constants.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/crypto.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/dgram.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/dns.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/domain.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/events.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/url/url.js
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/fs.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/fs/promises.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/http.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/http2.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/https.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/inspector.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/module.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/net.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/os.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/path.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/perf_hooks.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/process.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/punycode.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/querystring.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/readline.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/repl.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/stream.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/string_decoder.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/timers.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/tls.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/trace_events.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/tty.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/querystring/index.js
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/url.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/util.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/v8.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/vm.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/worker_threads.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/zlib.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/ts3.4/base.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/globals.global.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/wasi.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/ts3.6/base.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/assert.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/base.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/react/global.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/csstype/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/prop-types/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/react/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/react-dom/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/react-scripts/lib/react-app.d.ts
+
+Info 69   [21:33:24.569] -----------------------------------------------
+Info 70   [21:33:24.570] Project '/home/yyoncho/Sources/my-app/jsconfig.json' (Configured)
+Info 70   [21:33:24.570] 	Files (131)
+
+Info 70   [21:33:24.570] -----------------------------------------------
+Info 70   [21:33:24.570] Project '/dev/null/inferredProject1*' (Inferred)
+Info 70   [21:33:24.570] 	Files (125)
+
+Info 70   [21:33:24.570] -----------------------------------------------
+Info 70   [21:33:24.570] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 70   [21:33:24.570] 	Files (58)
+
+Info 70   [21:33:24.570] -----------------------------------------------
+Info 70   [21:33:24.570] Open files: 
+Info 70   [21:33:24.570] 	FileName: /home/yyoncho/Sources/my-app/.eslintrc.js ProjectRootPath: /home/yyoncho/Sources/my-app
+Info 70   [21:33:24.570] 		Projects: /dev/null/inferredProject1*
+Perf 70   [21:33:24.570] 2::open: async elapsed time (in milliseconds) 5087.2554
+Info 71   [21:33:24.570] request:
+    {"command":"navtree","seq":3,"type":"request","arguments":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js"}}
+Perf 72   [21:33:24.574] 3::navtree: elapsed time (in milliseconds) 4.0400
+Info 73   [21:33:24.574] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":3,"success":true,"body":{"text":"<global>","kind":"script","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":27,"offset":4}}],"childItems":[{"text":"<unknown>","kind":"const","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":27,"offset":2}}],"childItems":[{"text":"\"env\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":2,"offset":5},"end":{"line":5,"offset":6}}],"nameSpan":{"start":{"line":2,"offset":5},"end":{"line":2,"offset":10}},"childItems":[{"text":"\"browser\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":3,"offset":9},"end":{"line":3,"offset":24}}],"nameSpan":{"start":{"line":3,"offset":9},"end":{"line":3,"offset":18}}},{"text":"\"es6\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":4,"offset":9},"end":{"line":4,"offset":20}}],"nameSpan":{"start":{"line":4,"offset":9},"end":{"line":4,"offset":14}}}]},{"text":"\"extends\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":6,"offset":5},"end":{"line":9,"offset":6}}],"nameSpan":{"start":{"line":6,"offset":5},"end":{"line":6,"offset":14}}},{"text":"\"globals\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":10,"offset":5},"end":{"line":13,"offset":6}}],"nameSpan":{"start":{"line":10,"offset":5},"end":{"line":10,"offset":14}},"childItems":[{"text":"\"Atomics\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":11,"offset":9},"end":{"line":11,"offset":30}}],"nameSpan":{"start":{"line":11,"offset":9},"end":{"line":11,"offset":18}}},{"text":"\"SharedArrayBuffer\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":12,"offset":9},"end":{"line":12,"offset":40}}],"nameSpan":{"start":{"line":12,"offset":9},"end":{"line":12,"offset":28}}}]},{"text":"\"parserOptions\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":14,"offset":5},"end":{"line":20,"offset":6}}],"nameSpan":{"start":{"line":14,"offset":5},"end":{"line":14,"offset":20}},"childItems":[{"text":"\"ecmaFeatures\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":15,"offset":9},"end":{"line":17,"offset":10}}],"nameSpan":{"start":{"line":15,"offset":9},"end":{"line":15,"offset":23}},"childItems":[{"text":"\"jsx\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":16,"offset":13},"end":{"line":16,"offset":24}}],"nameSpan":{"start":{"line":16,"offset":13},"end":{"line":16,"offset":18}}}]},{"text":"\"ecmaVersion\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":18,"offset":9},"end":{"line":18,"offset":28}}],"nameSpan":{"start":{"line":18,"offset":9},"end":{"line":18,"offset":22}}},{"text":"\"sourceType\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":19,"offset":9},"end":{"line":19,"offset":31}}],"nameSpan":{"start":{"line":19,"offset":9},"end":{"line":19,"offset":21}}}]},{"text":"\"plugins\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":21,"offset":5},"end":{"line":23,"offset":6}}],"nameSpan":{"start":{"line":21,"offset":5},"end":{"line":21,"offset":14}}},{"text":"\"rules\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":24,"offset":5},"end":{"line":26,"offset":6}}],"nameSpan":{"start":{"line":24,"offset":5},"end":{"line":24,"offset":12}},"childItems":[{"text":"\"no-extra-semi\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":25,"offset":9},"end":{"line":25,"offset":32}}],"nameSpan":{"start":{"line":25,"offset":9},"end":{"line":25,"offset":24}}}]}]}]}}
+Info 74   [21:33:24.574] request:
+    {"command":"getCodeFixes","seq":4,"type":"request","arguments":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","startLine":24,"startOffset":1,"endLine":24,"endOffset":1,"errorCodes":[]}}
+Perf 75   [21:33:24.610] 4::getCodeFixes: elapsed time (in milliseconds) 35.2780
+Info 76   [21:33:24.610] response:
+    {"seq":0,"type":"response","command":"getCodeFixes","request_seq":4,"success":true,"body":[]}
+Info 77   [21:33:24.610] request:
+    {"command":"navtree","seq":5,"type":"request","arguments":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js"}}
+Perf 78   [21:33:24.610] 5::navtree: elapsed time (in milliseconds) 0.6928
+Info 79   [21:33:24.610] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":5,"success":true,"body":{"text":"<global>","kind":"script","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":27,"offset":4}}],"childItems":[{"text":"<unknown>","kind":"const","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":27,"offset":2}}],"childItems":[{"text":"\"env\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":2,"offset":5},"end":{"line":5,"offset":6}}],"nameSpan":{"start":{"line":2,"offset":5},"end":{"line":2,"offset":10}},"childItems":[{"text":"\"browser\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":3,"offset":9},"end":{"line":3,"offset":24}}],"nameSpan":{"start":{"line":3,"offset":9},"end":{"line":3,"offset":18}}},{"text":"\"es6\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":4,"offset":9},"end":{"line":4,"offset":20}}],"nameSpan":{"start":{"line":4,"offset":9},"end":{"line":4,"offset":14}}}]},{"text":"\"extends\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":6,"offset":5},"end":{"line":9,"offset":6}}],"nameSpan":{"start":{"line":6,"offset":5},"end":{"line":6,"offset":14}}},{"text":"\"globals\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":10,"offset":5},"end":{"line":13,"offset":6}}],"nameSpan":{"start":{"line":10,"offset":5},"end":{"line":10,"offset":14}},"childItems":[{"text":"\"Atomics\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":11,"offset":9},"end":{"line":11,"offset":30}}],"nameSpan":{"start":{"line":11,"offset":9},"end":{"line":11,"offset":18}}},{"text":"\"SharedArrayBuffer\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":12,"offset":9},"end":{"line":12,"offset":40}}],"nameSpan":{"start":{"line":12,"offset":9},"end":{"line":12,"offset":28}}}]},{"text":"\"parserOptions\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":14,"offset":5},"end":{"line":20,"offset":6}}],"nameSpan":{"start":{"line":14,"offset":5},"end":{"line":14,"offset":20}},"childItems":[{"text":"\"ecmaFeatures\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":15,"offset":9},"end":{"line":17,"offset":10}}],"nameSpan":{"start":{"line":15,"offset":9},"end":{"line":15,"offset":23}},"childItems":[{"text":"\"jsx\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":16,"offset":13},"end":{"line":16,"offset":24}}],"nameSpan":{"start":{"line":16,"offset":13},"end":{"line":16,"offset":18}}}]},{"text":"\"ecmaVersion\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":18,"offset":9},"end":{"line":18,"offset":28}}],"nameSpan":{"start":{"line":18,"offset":9},"end":{"line":18,"offset":22}}},{"text":"\"sourceType\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":19,"offset":9},"end":{"line":19,"offset":31}}],"nameSpan":{"start":{"line":19,"offset":9},"end":{"line":19,"offset":21}}}]},{"text":"\"plugins\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":21,"offset":5},"end":{"line":23,"offset":6}}],"nameSpan":{"start":{"line":21,"offset":5},"end":{"line":21,"offset":14}}},{"text":"\"rules\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":24,"offset":5},"end":{"line":26,"offset":6}}],"nameSpan":{"start":{"line":24,"offset":5},"end":{"line":24,"offset":12}},"childItems":[{"text":"\"no-extra-semi\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":25,"offset":9},"end":{"line":25,"offset":32}}],"nameSpan":{"start":{"line":25,"offset":9},"end":{"line":25,"offset":24}}}]}]}]}}
+Info 80   [21:33:24.611] request:
+    {"command":"getCodeFixes","seq":6,"type":"request","arguments":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","startLine":24,"startOffset":1,"endLine":24,"endOffset":1,"errorCodes":[]}}
+Perf 81   [21:33:24.611] 6::getCodeFixes: elapsed time (in milliseconds) 0.1170
+Info 82   [21:33:24.611] response:
+    {"seq":0,"type":"response","command":"getCodeFixes","request_seq":6,"success":true,"body":[]}
+Info 83   [21:33:24.611] request:
+    {"command":"geterr","seq":7,"type":"request","arguments":{"delay":0,"files":["/home/yyoncho/Sources/my-app/.eslintrc.js"]}}
+Perf 84   [21:33:24.611] 7::geterr: async elapsed time (in milliseconds) 0.3491
+Info 85   [21:33:24.612] event:
+    {"seq":0,"type":"event","event":"typingsInstallerPid","body":{"pid":225194}}
+Info 86   [21:33:24.612] Sending request:
+    {"projectName":"/home/yyoncho/Sources/my-app/jsconfig.json","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/yyoncho/Sources/my-app/src/App.js","/home/yyoncho/Sources/my-app/src/App.test.js","/home/yyoncho/Sources/my-app/src/serviceWorker.js","/home/yyoncho/Sources/my-app/src/index.js","/home/yyoncho/Sources/my-app/src/setupTests.js"],"compilerOptions":{"allowJs":true,"maxNodeModuleJsDepth":2,"allowSyntheticDefaultImports":true,"skipLibCheck":true,"noEmit":true,"module":1,"target":3,"jsx":1,"configFilePath":"/home/yyoncho/Sources/my-app/jsconfig.json","allowNonTsExtensions":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/yyoncho/Sources/my-app","kind":"discover"}
+Info 87   [21:33:24.613] Sending request:
+    {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/yyoncho/Sources/my-app/.eslintrc.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/yyoncho/Sources/my-app","kind":"discover"}
+Info 88   [21:33:24.614] event:
+    {"seq":0,"type":"event","event":"syntaxDiag","body":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","diagnostics":[]}}
+Info 89   [21:33:24.615] request:
+    {"command":"navtree","seq":8,"type":"request","arguments":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js"}}
+Perf 90   [21:33:24.616] 8::navtree: elapsed time (in milliseconds) 0.9882
+Info 91   [21:33:24.616] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":8,"success":true,"body":{"text":"<global>","kind":"script","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":27,"offset":4}}],"childItems":[{"text":"<unknown>","kind":"const","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":27,"offset":2}}],"childItems":[{"text":"\"env\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":2,"offset":5},"end":{"line":5,"offset":6}}],"nameSpan":{"start":{"line":2,"offset":5},"end":{"line":2,"offset":10}},"childItems":[{"text":"\"browser\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":3,"offset":9},"end":{"line":3,"offset":24}}],"nameSpan":{"start":{"line":3,"offset":9},"end":{"line":3,"offset":18}}},{"text":"\"es6\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":4,"offset":9},"end":{"line":4,"offset":20}}],"nameSpan":{"start":{"line":4,"offset":9},"end":{"line":4,"offset":14}}}]},{"text":"\"extends\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":6,"offset":5},"end":{"line":9,"offset":6}}],"nameSpan":{"start":{"line":6,"offset":5},"end":{"line":6,"offset":14}}},{"text":"\"globals\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":10,"offset":5},"end":{"line":13,"offset":6}}],"nameSpan":{"start":{"line":10,"offset":5},"end":{"line":10,"offset":14}},"childItems":[{"text":"\"Atomics\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":11,"offset":9},"end":{"line":11,"offset":30}}],"nameSpan":{"start":{"line":11,"offset":9},"end":{"line":11,"offset":18}}},{"text":"\"SharedArrayBuffer\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":12,"offset":9},"end":{"line":12,"offset":40}}],"nameSpan":{"start":{"line":12,"offset":9},"end":{"line":12,"offset":28}}}]},{"text":"\"parserOptions\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":14,"offset":5},"end":{"line":20,"offset":6}}],"nameSpan":{"start":{"line":14,"offset":5},"end":{"line":14,"offset":20}},"childItems":[{"text":"\"ecmaFeatures\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":15,"offset":9},"end":{"line":17,"offset":10}}],"nameSpan":{"start":{"line":15,"offset":9},"end":{"line":15,"offset":23}},"childItems":[{"text":"\"jsx\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":16,"offset":13},"end":{"line":16,"offset":24}}],"nameSpan":{"start":{"line":16,"offset":13},"end":{"line":16,"offset":18}}}]},{"text":"\"ecmaVersion\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":18,"offset":9},"end":{"line":18,"offset":28}}],"nameSpan":{"start":{"line":18,"offset":9},"end":{"line":18,"offset":22}}},{"text":"\"sourceType\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":19,"offset":9},"end":{"line":19,"offset":31}}],"nameSpan":{"start":{"line":19,"offset":9},"end":{"line":19,"offset":21}}}]},{"text":"\"plugins\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":21,"offset":5},"end":{"line":23,"offset":6}}],"nameSpan":{"start":{"line":21,"offset":5},"end":{"line":21,"offset":14}}},{"text":"\"rules\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":24,"offset":5},"end":{"line":26,"offset":6}}],"nameSpan":{"start":{"line":24,"offset":5},"end":{"line":24,"offset":12}},"childItems":[{"text":"\"no-extra-semi\"","kind":"property","kindModifiers":"","spans":[{"start":{"line":25,"offset":9},"end":{"line":25,"offset":32}}],"nameSpan":{"start":{"line":25,"offset":9},"end":{"line":25,"offset":24}}}]}]}]}}
+Info 92   [21:33:24.616] request:
+    {"command":"getCodeFixes","seq":9,"type":"request","arguments":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","startLine":24,"startOffset":1,"endLine":24,"endOffset":1,"errorCodes":[]}}
+Perf 93   [21:33:24.616] 9::getCodeFixes: elapsed time (in milliseconds) 0.2136
+Info 94   [21:33:24.616] response:
+    {"seq":0,"type":"response","command":"getCodeFixes","request_seq":9,"success":true,"body":[]}
+Info 95   [21:33:24.616] request:
+    {"command":"getApplicableRefactors","seq":10,"type":"request","arguments":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","startLine":24,"startOffset":1,"endLine":24,"endOffset":1}}
+Perf 96   [21:33:24.621] 10::getApplicableRefactors: elapsed time (in milliseconds) 5.0644
+Info 97   [21:33:24.621] response:
+    {"seq":0,"type":"response","command":"getApplicableRefactors","request_seq":10,"success":true,"body":[]}
+Info 98   [21:33:24.621] request:
+    {"command":"getApplicableRefactors","seq":11,"type":"request","arguments":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","startLine":24,"startOffset":1,"endLine":24,"endOffset":1}}
+Perf 99   [21:33:24.622] 11::getApplicableRefactors: elapsed time (in milliseconds) 0.6184
+Info 100  [21:33:24.622] response:
+    {"seq":0,"type":"response","command":"getApplicableRefactors","request_seq":11,"success":true,"body":[]}
+Info 101  [21:33:24.629] event:
+    {"seq":0,"type":"event","event":"semanticDiag","body":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","diagnostics":[]}}
+Info 102  [21:33:24.629] request:
+    {"command":"getApplicableRefactors","seq":12,"type":"request","arguments":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","startLine":24,"startOffset":1,"endLine":24,"endOffset":1}}
+Perf 103  [21:33:24.630] 12::getApplicableRefactors: elapsed time (in milliseconds) 0.6925
+Info 104  [21:33:24.630] response:
+    {"seq":0,"type":"response","command":"getApplicableRefactors","request_seq":12,"success":true,"body":[]}
+Info 105  [21:33:24.645] event:
+    {"seq":0,"type":"event","event":"suggestionDiag","body":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","diagnostics":[]}}
+Info 106  [21:33:24.645] event:
+    {"seq":0,"type":"event","event":"requestCompleted","body":{"request_seq":7}}
+Info 107  [21:33:24.700] request:
+    {"command":"getCodeFixes","seq":13,"type":"request","arguments":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","startLine":24,"startOffset":1,"endLine":24,"endOffset":1,"errorCodes":[]}}
+Perf 108  [21:33:24.700] 13::getCodeFixes: elapsed time (in milliseconds) 0.3522
+Info 109  [21:33:24.700] response:
+    {"seq":0,"type":"response","command":"getCodeFixes","request_seq":13,"success":true,"body":[]}
+Info 110  [21:33:24.701] request:
+    {"command":"getApplicableRefactors","seq":14,"type":"request","arguments":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","startLine":24,"startOffset":1,"endLine":24,"endOffset":1}}
+Perf 111  [21:33:24.701] 14::getApplicableRefactors: elapsed time (in milliseconds) 0.6637
+Info 112  [21:33:24.702] response:
+    {"seq":0,"type":"response","command":"getApplicableRefactors","request_seq":14,"success":true,"body":[]}
+Info 113  [21:33:25.524] Received response:
+    {"projectName":"/home/yyoncho/Sources/my-app/jsconfig.json","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"allowJs":true,"maxNodeModuleJsDepth":2,"allowSyntheticDefaultImports":true,"skipLibCheck":true,"noEmit":true,"module":1,"target":3,"jsx":1,"configFilePath":"/home/yyoncho/Sources/my-app/jsconfig.json","allowNonTsExtensions":true},"typings":["/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react-dom/index.d.ts","/home/yyoncho/Sources/my-app/node_modules/react-scripts/lib/react-app.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/eslint/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/async/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/atob/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/object-path/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/sprintf/index.d.ts"],"unresolvedImports":[],"kind":"action::set"}
+Info 114  [21:33:25.524] Scheduled: /home/yyoncho/Sources/my-app/jsconfig.json
+Info 115  [21:33:25.525] Scheduled: *ensureProjectForOpenFiles*
+Info 116  [21:33:25.525] event:
+    {"seq":0,"type":"event","event":"setTypings","body":{"projectName":"/home/yyoncho/Sources/my-app/jsconfig.json","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"allowJs":true,"maxNodeModuleJsDepth":2,"allowSyntheticDefaultImports":true,"skipLibCheck":true,"noEmit":true,"module":1,"target":3,"jsx":1,"configFilePath":"/home/yyoncho/Sources/my-app/jsconfig.json","allowNonTsExtensions":true},"typings":["/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react-dom/index.d.ts","/home/yyoncho/Sources/my-app/node_modules/react-scripts/lib/react-app.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/eslint/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/async/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/atob/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/object-path/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/sprintf/index.d.ts"],"unresolvedImports":[],"kind":"action::set"}}
+Info 117  [21:33:25.623] sysLog:: onTimerToUpdateChildWatches:: 1
+Info 118  [21:33:25.624] sysLog:: invokingWatchers:: 0ms:: 0
+Info 119  [21:33:25.624] DirectoryWatcher:: Triggered with /home/yyoncho/Sources/my-app/.log/ti-225187.log 0:: WatchInfo: /home/yyoncho/Sources/my-app 1 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Wild card directory
+Info 120  [21:33:25.624] Project: /home/yyoncho/Sources/my-app/jsconfig.json Detected file add/remove of non supported extension: /home/yyoncho/Sources/my-app/.log/ti-225187.log
+Info 121  [21:33:25.624] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/yyoncho/Sources/my-app/.log/ti-225187.log 0:: WatchInfo: /home/yyoncho/Sources/my-app 1 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Wild card directory
+Info 122  [21:33:25.624] sysLog:: Elapsed 0ms:: onTimerToUpdateChildWatches:: 0 undefined
+Info 123  [21:33:25.775] Running: /home/yyoncho/Sources/my-app/jsconfig.json
+Info 124  [21:33:25.775] Starting updateGraphWorker: Project: /home/yyoncho/Sources/my-app/jsconfig.json
+Info 125  [21:33:25.983] DirectoryWatcher:: Added:: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Failed Lookup Locations
+Info 126  [21:33:25.990] Elapsed:: 7ms DirectoryWatcher:: Added:: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Failed Lookup Locations
+Info 127  [21:33:25.994] Finishing updateGraphWorker: Project: /home/yyoncho/Sources/my-app/jsconfig.json Version: 2 structureChanged: true Elapsed: 219ms
+Info 128  [21:33:25.994] Project '/home/yyoncho/Sources/my-app/jsconfig.json' (Configured)
+Info 129  [21:33:25.994] 	Files (145)
+	/usr/lib/node_modules/typescript/lib/lib.es5.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2017.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2018.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.dom.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2017.object.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2017.string.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2017.intl.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2018.intl.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2018.promise.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2018.regexp.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2020.bigint.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.esnext.intl.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/react/global.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/csstype/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/prop-types/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/react/index.d.ts
+	/home/yyoncho/Sources/my-app/src/App.js
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__react/node_modules/pretty-format/build/types.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__react/node_modules/pretty-format/build/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/matches.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/query-helpers.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/wait-for-element.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/queries.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/get-queries-for-element.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/pretty-format/build/types.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/pretty-format/build/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/screen.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/wait.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/wait-for-dom-change.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/wait-for-element-to-be-removed.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/get-node-text.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/events.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/pretty-dom.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/role-helpers.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/config.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/react-dom/test-utils/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__react/index.d.ts
+	/home/yyoncho/Sources/my-app/src/App.test.js
+	/home/yyoncho/Sources/my-app/node_modules/@types/react-dom/index.d.ts
+	/home/yyoncho/Sources/my-app/src/serviceWorker.js
+	/home/yyoncho/Sources/my-app/src/index.js
+	/home/yyoncho/Sources/my-app/node_modules/@testing-library/jest-dom/extend-expect.d.ts
+	/home/yyoncho/Sources/my-app/src/setupTests.js
+	/home/yyoncho/.cache/typescript/4.0/node_modules/@types/async/index.d.ts
+	/home/yyoncho/.cache/typescript/4.0/node_modules/@types/atob/index.d.ts
+	/home/yyoncho/.cache/typescript/4.0/node_modules/@types/eslint/helpers.d.ts
+	/home/yyoncho/.cache/typescript/4.0/node_modules/@types/json-schema/index.d.ts
+	/home/yyoncho/.cache/typescript/4.0/node_modules/@types/estree/index.d.ts
+	/home/yyoncho/.cache/typescript/4.0/node_modules/@types/eslint/index.d.ts
+	/home/yyoncho/.cache/typescript/4.0/node_modules/@types/object-path/index.d.ts
+	/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react/index.d.ts
+	/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react-dom/index.d.ts
+	/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react/global.d.ts
+	/home/yyoncho/.cache/typescript/4.0/node_modules/csstype/index.d.ts
+	/home/yyoncho/.cache/typescript/4.0/node_modules/@types/prop-types/index.d.ts
+	/home/yyoncho/.cache/typescript/4.0/node_modules/@types/sprintf/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/globals.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/async_hooks.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/buffer.d.ts
+	/home/yyoncho/.cache/typescript/4.0/node_modules/@types/node/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/child_process.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/cluster.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/console.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/constants.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/crypto.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/dgram.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/dns.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/domain.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/events.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/fs.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/fs/promises.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/http.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/http2.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/https.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/inspector.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/module.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/net.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/os.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/path.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/perf_hooks.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/process.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/punycode.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/querystring.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/readline.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/repl.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/stream.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/string_decoder.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/timers.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/tls.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/trace_events.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/tty.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/url.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/util.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/v8.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/vm.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/worker_threads.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/zlib.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/ts3.4/base.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/globals.global.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/wasi.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/ts3.6/base.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/assert.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/base.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/react-scripts/lib/react-app.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@babel/types/lib/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/babel__generator/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/babel__traverse/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@babel/parser/typings/babel-parser.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/babel__template/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/babel__core/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/eslint-visitor-keys/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/minimatch/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/glob/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/istanbul-lib-coverage/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/istanbul-lib-report/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/istanbul-reports/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/json-schema/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/parse-json/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/q/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/stack-utils/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/yargs-parser/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/yargs/index.d.ts
+	/home/yyoncho/node_modules/@types/color-name/index.d.ts
+
+Info 130  [21:33:25.994] -----------------------------------------------
+Info 131  [21:33:25.995] Scheduling throttled operation:
+    {"projectName":"/home/yyoncho/Sources/my-app/jsconfig.json","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/yyoncho/Sources/my-app/src/App.js","/home/yyoncho/Sources/my-app/src/App.test.js","/home/yyoncho/Sources/my-app/src/serviceWorker.js","/home/yyoncho/Sources/my-app/src/index.js","/home/yyoncho/Sources/my-app/src/setupTests.js","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/async/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/atob/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/eslint/helpers.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/eslint/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/object-path/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react-dom/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react/global.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/sprintf/index.d.ts","/home/yyoncho/Sources/my-app/node_modules/react-scripts/lib/react-app.d.ts"],"compilerOptions":{"allowJs":true,"maxNodeModuleJsDepth":2,"allowSyntheticDefaultImports":true,"skipLibCheck":true,"noEmit":true,"module":1,"target":3,"jsx":1,"configFilePath":"/home/yyoncho/Sources/my-app/jsconfig.json","allowNonTsExtensions":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/yyoncho/Sources/my-app","kind":"discover"}
+Info 132  [21:33:25.995] Scheduling request for: /home/yyoncho/Sources/my-app/jsconfig.json
+Info 133  [21:33:26.4] Received response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react-dom/index.d.ts","/home/yyoncho/Sources/my-app/node_modules/react-scripts/lib/react-app.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/eslint/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/async/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/atob/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/object-path/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/sprintf/index.d.ts"],"unresolvedImports":[],"kind":"action::set"}
+Info 134  [21:33:26.4] Scheduled: /dev/null/inferredProject1*
+Info 135  [21:33:26.4] Scheduled: *ensureProjectForOpenFiles*, Cancelled earlier one
+Info 136  [21:33:26.4] event:
+    {"seq":0,"type":"event","event":"setTypings","body":{"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react-dom/index.d.ts","/home/yyoncho/Sources/my-app/node_modules/react-scripts/lib/react-app.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/eslint/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/async/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/atob/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/object-path/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/sprintf/index.d.ts"],"unresolvedImports":[],"kind":"action::set"}}
+Info 137  [21:33:26.4] request:
+    {"command":"getCodeFixes","seq":15,"type":"request","arguments":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","startLine":24,"startOffset":2,"endLine":24,"endOffset":2,"errorCodes":[]}}
+Info 138  [21:33:26.5] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 139  [21:33:26.239] DirectoryWatcher:: Added:: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 140  [21:33:26.239] Elapsed:: 0ms DirectoryWatcher:: Added:: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 141  [21:33:26.241] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: true Elapsed: 236ms
+Info 142  [21:33:26.241] Project '/dev/null/inferredProject1*' (Inferred)
+Info 143  [21:33:26.241] 	Files (137)
+	/usr/lib/node_modules/typescript/lib/lib.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es5.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2017.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2018.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.dom.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2017.object.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2017.string.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2017.intl.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2018.intl.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2018.promise.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2018.regexp.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.es2020.bigint.d.ts
+	/usr/lib/node_modules/typescript/lib/lib.esnext.intl.d.ts
+	/home/yyoncho/Sources/my-app/.eslintrc.js
+	/home/yyoncho/.cache/typescript/4.0/node_modules/@types/async/index.d.ts
+	/home/yyoncho/.cache/typescript/4.0/node_modules/@types/atob/index.d.ts
+	/home/yyoncho/.cache/typescript/4.0/node_modules/@types/eslint/helpers.d.ts
+	/home/yyoncho/.cache/typescript/4.0/node_modules/@types/json-schema/index.d.ts
+	/home/yyoncho/.cache/typescript/4.0/node_modules/@types/estree/index.d.ts
+	/home/yyoncho/.cache/typescript/4.0/node_modules/@types/eslint/index.d.ts
+	/home/yyoncho/.cache/typescript/4.0/node_modules/@types/object-path/index.d.ts
+	/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react/global.d.ts
+	/home/yyoncho/.cache/typescript/4.0/node_modules/csstype/index.d.ts
+	/home/yyoncho/.cache/typescript/4.0/node_modules/@types/prop-types/index.d.ts
+	/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react/index.d.ts
+	/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react-dom/index.d.ts
+	/home/yyoncho/.cache/typescript/4.0/node_modules/@types/sprintf/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/globals.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/async_hooks.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/buffer.d.ts
+	/home/yyoncho/.cache/typescript/4.0/node_modules/@types/node/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/child_process.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/cluster.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/console.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/constants.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/crypto.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/dgram.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/dns.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/domain.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/events.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/fs.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/fs/promises.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/http.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/http2.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/https.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/inspector.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/module.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/net.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/os.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/path.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/perf_hooks.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/process.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/punycode.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/querystring.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/readline.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/repl.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/stream.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/string_decoder.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/timers.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/tls.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/trace_events.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/tty.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/url.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/util.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/v8.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/vm.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/worker_threads.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/zlib.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/ts3.4/base.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/globals.global.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/wasi.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/ts3.6/base.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/assert.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/base.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/node/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/react/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/react-dom/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/react-scripts/lib/react-app.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@babel/types/lib/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/babel__generator/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/babel__traverse/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@babel/parser/typings/babel-parser.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/babel__template/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/babel__core/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/eslint-visitor-keys/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/minimatch/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/glob/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/istanbul-lib-coverage/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/istanbul-lib-report/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/istanbul-reports/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/json-schema/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/parse-json/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/prop-types/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/q/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/stack-utils/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/matches.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/query-helpers.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/wait-for-element.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/queries.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/get-queries-for-element.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/pretty-format/build/types.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/pretty-format/build/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/screen.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/wait.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/wait-for-dom-change.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/wait-for-element-to-be-removed.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/get-node-text.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/events.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/pretty-dom.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/role-helpers.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/config.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__dom/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__react/node_modules/pretty-format/build/types.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__react/node_modules/pretty-format/build/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/react-dom/test-utils/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/testing-library__react/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/yargs-parser/index.d.ts
+	/home/yyoncho/Sources/my-app/node_modules/@types/yargs/index.d.ts
+	/home/yyoncho/node_modules/@types/color-name/index.d.ts
+
+Info 144  [21:33:26.241] -----------------------------------------------
+Info 145  [21:33:26.241] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 146  [21:33:26.241] 	Files (58)
+
+Info 147  [21:33:26.241] -----------------------------------------------
+Info 148  [21:33:26.242] Scheduling throttled operation:
+    {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/yyoncho/Sources/my-app/.eslintrc.js","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/async/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/atob/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/eslint/helpers.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/eslint/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/object-path/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react/global.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react-dom/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/sprintf/index.d.ts","/home/yyoncho/Sources/my-app/node_modules/react-scripts/lib/react-app.d.ts"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/yyoncho/Sources/my-app","kind":"discover"}
+Info 149  [21:33:26.242] Scheduling request for: /dev/null/inferredProject1*
+Perf 150  [21:33:26.242] 15::getCodeFixes: elapsed time (in milliseconds) 237.5928
+Info 151  [21:33:26.242] response:
+    {"seq":0,"type":"response","command":"getCodeFixes","request_seq":15,"success":true,"performanceData":{"updateGraphDurationMs":236},"body":[]}
+Info 152  [21:33:26.242] Sending request:
+    {"projectName":"/home/yyoncho/Sources/my-app/jsconfig.json","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/yyoncho/Sources/my-app/src/App.js","/home/yyoncho/Sources/my-app/src/App.test.js","/home/yyoncho/Sources/my-app/src/serviceWorker.js","/home/yyoncho/Sources/my-app/src/index.js","/home/yyoncho/Sources/my-app/src/setupTests.js","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/async/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/atob/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/eslint/helpers.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/eslint/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/object-path/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react-dom/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react/global.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/sprintf/index.d.ts","/home/yyoncho/Sources/my-app/node_modules/react-scripts/lib/react-app.d.ts"],"compilerOptions":{"allowJs":true,"maxNodeModuleJsDepth":2,"allowSyntheticDefaultImports":true,"skipLibCheck":true,"noEmit":true,"module":1,"target":3,"jsx":1,"configFilePath":"/home/yyoncho/Sources/my-app/jsconfig.json","allowNonTsExtensions":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/yyoncho/Sources/my-app","kind":"discover"}
+Info 153  [21:33:26.242] request:
+    {"command":"getApplicableRefactors","seq":16,"type":"request","arguments":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","startLine":24,"startOffset":2,"endLine":24,"endOffset":2}}
+Perf 154  [21:33:26.243] 16::getApplicableRefactors: elapsed time (in milliseconds) 0.4054
+Info 155  [21:33:26.243] response:
+    {"seq":0,"type":"response","command":"getApplicableRefactors","request_seq":16,"success":true,"body":[]}
+Info 156  [21:33:26.254] Running: /dev/null/inferredProject1*
+Info 157  [21:33:26.342] Sending request:
+    {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/yyoncho/Sources/my-app/.eslintrc.js","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/async/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/atob/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/eslint/helpers.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/eslint/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/object-path/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react/global.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react-dom/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/sprintf/index.d.ts","/home/yyoncho/Sources/my-app/node_modules/react-scripts/lib/react-app.d.ts"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/yyoncho/Sources/my-app","kind":"discover"}
+Info 158  [21:33:26.539] Received response:
+    {"projectName":"/home/yyoncho/Sources/my-app/jsconfig.json","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"allowJs":true,"maxNodeModuleJsDepth":2,"allowSyntheticDefaultImports":true,"skipLibCheck":true,"noEmit":true,"module":1,"target":3,"jsx":1,"configFilePath":"/home/yyoncho/Sources/my-app/jsconfig.json","allowNonTsExtensions":true},"typings":["/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react-dom/index.d.ts","/home/yyoncho/Sources/my-app/node_modules/react-scripts/lib/react-app.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/eslint/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/async/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/atob/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/object-path/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/sprintf/index.d.ts"],"unresolvedImports":[],"kind":"action::set"}
+Info 159  [21:33:26.540] Scheduled: /home/yyoncho/Sources/my-app/jsconfig.json
+Info 160  [21:33:26.540] Scheduled: *ensureProjectForOpenFiles*, Cancelled earlier one
+Info 161  [21:33:26.540] event:
+    {"seq":0,"type":"event","event":"setTypings","body":{"projectName":"/home/yyoncho/Sources/my-app/jsconfig.json","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"allowJs":true,"maxNodeModuleJsDepth":2,"allowSyntheticDefaultImports":true,"skipLibCheck":true,"noEmit":true,"module":1,"target":3,"jsx":1,"configFilePath":"/home/yyoncho/Sources/my-app/jsconfig.json","allowNonTsExtensions":true},"typings":["/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react-dom/index.d.ts","/home/yyoncho/Sources/my-app/node_modules/react-scripts/lib/react-app.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/eslint/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/async/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/atob/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/object-path/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/sprintf/index.d.ts"],"unresolvedImports":[],"kind":"action::set"}}
+Info 162  [21:33:26.746] Received response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react-dom/index.d.ts","/home/yyoncho/Sources/my-app/node_modules/react-scripts/lib/react-app.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/eslint/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/async/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/atob/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/object-path/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/sprintf/index.d.ts"],"unresolvedImports":[],"kind":"action::set"}
+Info 163  [21:33:26.746] Scheduled: /dev/null/inferredProject1*
+Info 164  [21:33:26.746] Scheduled: *ensureProjectForOpenFiles*, Cancelled earlier one
+Info 165  [21:33:26.746] event:
+    {"seq":0,"type":"event","event":"setTypings","body":{"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/react-dom/index.d.ts","/home/yyoncho/Sources/my-app/node_modules/react-scripts/lib/react-app.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/eslint/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/async/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/atob/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/object-path/index.d.ts","/home/yyoncho/.cache/typescript/4.0/node_modules/@types/sprintf/index.d.ts"],"unresolvedImports":[],"kind":"action::set"}}
+Info 166  [21:33:26.790] Running: /home/yyoncho/Sources/my-app/jsconfig.json
+Info 167  [21:33:26.790] Starting updateGraphWorker: Project: /home/yyoncho/Sources/my-app/jsconfig.json
+Info 168  [21:33:26.793] Finishing updateGraphWorker: Project: /home/yyoncho/Sources/my-app/jsconfig.json Version: 3 structureChanged: false Elapsed: 3ms
+Info 169  [21:33:26.996] Running: /dev/null/inferredProject1*
+Info 170  [21:33:26.997] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 171  [21:33:26.998] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: false Elapsed: 1ms
+Info 172  [21:33:29.247] Running: *ensureProjectForOpenFiles*
+Info 173  [21:33:29.248] Before ensureProjectForOpenFiles:
+Info 174  [21:33:29.248] Project '/home/yyoncho/Sources/my-app/jsconfig.json' (Configured)
+Info 174  [21:33:29.248] 	Files (145)
+
+Info 174  [21:33:29.248] -----------------------------------------------
+Info 174  [21:33:29.248] Project '/dev/null/inferredProject1*' (Inferred)
+Info 174  [21:33:29.248] 	Files (137)
+
+Info 174  [21:33:29.248] -----------------------------------------------
+Info 174  [21:33:29.248] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 174  [21:33:29.248] 	Files (58)
+
+Info 174  [21:33:29.248] -----------------------------------------------
+Info 174  [21:33:29.248] Open files: 
+Info 174  [21:33:29.248] 	FileName: /home/yyoncho/Sources/my-app/.eslintrc.js ProjectRootPath: /home/yyoncho/Sources/my-app
+Info 174  [21:33:29.248] 		Projects: /dev/null/inferredProject1*
+Info 174  [21:33:29.248] After ensureProjectForOpenFiles:
+Info 175  [21:33:29.248] Project '/home/yyoncho/Sources/my-app/jsconfig.json' (Configured)
+Info 175  [21:33:29.248] 	Files (145)
+
+Info 175  [21:33:29.248] -----------------------------------------------
+Info 175  [21:33:29.248] Project '/dev/null/inferredProject1*' (Inferred)
+Info 175  [21:33:29.248] 	Files (137)
+
+Info 175  [21:33:29.248] -----------------------------------------------
+Info 175  [21:33:29.248] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 175  [21:33:29.248] 	Files (58)
+
+Info 175  [21:33:29.248] -----------------------------------------------
+Info 175  [21:33:29.248] Open files: 
+Info 175  [21:33:29.248] 	FileName: /home/yyoncho/Sources/my-app/.eslintrc.js ProjectRootPath: /home/yyoncho/Sources/my-app
+Info 175  [21:33:29.248] 		Projects: /dev/null/inferredProject1*
+Info 175  [21:33:29.248] got projects updated in background, updating diagnostics for /home/yyoncho/Sources/my-app/.eslintrc.js
+Info 176  [21:33:29.248] event:
+    {"seq":0,"type":"event","event":"projectsUpdatedInBackground","body":{"openFiles":["/home/yyoncho/Sources/my-app/.eslintrc.js"]}}
+Info 177  [21:33:29.349] event:
+    {"seq":0,"type":"event","event":"syntaxDiag","body":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","diagnostics":[]}}
+Info 178  [21:33:29.354] event:
+    {"seq":0,"type":"event","event":"semanticDiag","body":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","diagnostics":[]}}
+Info 179  [21:33:29.355] event:
+    {"seq":0,"type":"event","event":"suggestionDiag","body":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","diagnostics":[]}}
+Info 180  [21:33:29.444] request:
+    {"command":"getCodeFixes","seq":17,"type":"request","arguments":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","startLine":24,"startOffset":2,"endLine":24,"endOffset":2,"errorCodes":[]}}
+Perf 181  [21:33:29.444] 17::getCodeFixes: elapsed time (in milliseconds) 0.2195
+Info 182  [21:33:29.444] response:
+    {"seq":0,"type":"response","command":"getCodeFixes","request_seq":17,"success":true,"body":[]}
+Info 183  [21:33:29.444] request:
+    {"command":"getApplicableRefactors","seq":18,"type":"request","arguments":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","startLine":24,"startOffset":2,"endLine":24,"endOffset":2}}
+Perf 184  [21:33:29.445] 18::getApplicableRefactors: elapsed time (in milliseconds) 0.4520
+Info 185  [21:33:29.445] response:
+    {"seq":0,"type":"response","command":"getApplicableRefactors","request_seq":18,"success":true,"body":[]}
+Info 186  [21:33:34.726] request:
+    {"command":"getCodeFixes","seq":19,"type":"request","arguments":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","startLine":24,"startOffset":2,"endLine":24,"endOffset":2,"errorCodes":[]}}
+Perf 187  [21:33:34.726] 19::getCodeFixes: elapsed time (in milliseconds) 0.2283
+Info 188  [21:33:34.726] response:
+    {"seq":0,"type":"response","command":"getCodeFixes","request_seq":19,"success":true,"body":[]}
+Info 189  [21:33:34.727] request:
+    {"command":"getApplicableRefactors","seq":20,"type":"request","arguments":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","startLine":24,"startOffset":2,"endLine":24,"endOffset":2}}
+Perf 190  [21:33:34.727] 20::getApplicableRefactors: elapsed time (in milliseconds) 0.4279
+Info 191  [21:33:34.727] response:
+    {"seq":0,"type":"response","command":"getApplicableRefactors","request_seq":20,"success":true,"body":[]}
+Info 192  [21:33:36.443] request:
+    {"command":"getCodeFixes","seq":21,"type":"request","arguments":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","startLine":24,"startOffset":2,"endLine":24,"endOffset":2,"errorCodes":[]}}
+Perf 193  [21:33:36.443] 21::getCodeFixes: elapsed time (in milliseconds) 0.2810
+Info 194  [21:33:36.443] response:
+    {"seq":0,"type":"response","command":"getCodeFixes","request_seq":21,"success":true,"body":[]}
+Info 195  [21:33:36.443] request:
+    {"command":"getApplicableRefactors","seq":22,"type":"request","arguments":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","startLine":24,"startOffset":2,"endLine":24,"endOffset":2}}
+Perf 196  [21:33:36.444] 22::getApplicableRefactors: elapsed time (in milliseconds) 0.7027
+Info 197  [21:33:36.444] response:
+    {"seq":0,"type":"response","command":"getApplicableRefactors","request_seq":22,"success":true,"body":[]}
+Info 198  [21:34:16.904] request:
+    {"command":"change","seq":23,"type":"request","arguments":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","line":1,"offset":1,"endLine":28,"endOffset":1,"insertString":"{\n    \"env\": {\n        \"browser\": true,\n        \"es6\": true\n    },\n    \"extends\": [\n        \"eslint:recommended\",\n        \"plugin:react/recommended\"\n    ],\n    \"globals\": {\n        \"Atomics\": \"readonly\",\n        \"SharedArrayBuffer\": \"readonly\"\n    },\n    \"parserOptions\": {\n        \"ecmaFeatures\": {\n            \"jsx\": true\n        },\n        \"ecmaVersion\": 2018,\n        \"sourceType\": \"module\"\n    },\n    \"plugins\": [\n        \"react\"\n    ],\n    \"rules\": {\n        \"no-extra-semi\":\"error\"\n    }\n}\n"}}
+Perf 199  [21:34:16.906] 23::change: async elapsed time (in milliseconds) 2.4569
+Info 200  [21:34:16.958] request:
+    {"command":"navtree","seq":24,"type":"request","arguments":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js"}}
+Perf 201  [21:34:16.961] 24::navtree: elapsed time (in milliseconds) 3.3114
+Info 202  [21:34:16.961] response:
+    {"seq":0,"type":"response","command":"navtree","request_seq":24,"success":true,"body":{"text":"<global>","kind":"script","kindModifiers":"","spans":[{"start":{"line":1,"offset":1},"end":{"line":27,"offset":3}}]}}
+Info 203  [21:34:16.961] request:
+    {"command":"getCodeFixes","seq":25,"type":"request","arguments":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","startLine":25,"startOffset":26,"endLine":25,"endOffset":26,"errorCodes":[]}}
+Info 204  [21:34:16.961] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 205  [21:34:16.972] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: false Elapsed: 11ms
+Info 206  [21:34:16.972] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Perf 207  [21:34:16.972] 25::getCodeFixes: elapsed time (in milliseconds) 10.5870
+Info 208  [21:34:16.972] response:
+    {"seq":0,"type":"response","command":"getCodeFixes","request_seq":25,"success":true,"performanceData":{"updateGraphDurationMs":11},"body":[]}
+Info 209  [21:34:16.972] request:
+    {"command":"documentHighlights","seq":26,"type":"request","arguments":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","line":25,"offset":26,"filesToSearch":["/home/yyoncho/Sources/my-app/.eslintrc.js"]}}
+Perf 210  [21:34:16.974] 26::documentHighlights: elapsed time (in milliseconds) 2.1266
+Info 211  [21:34:16.974] response:
+    {"seq":0,"type":"response","command":"documentHighlights","request_seq":26,"success":true,"body":[{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","highlightSpans":[{"start":{"line":25,"offset":26},"end":{"line":25,"offset":31},"kind":"reference"}]}]}
+Info 212  [21:34:16.974] request:
+    {"command":"getApplicableRefactors","seq":27,"type":"request","arguments":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","startLine":25,"startOffset":26,"endLine":25,"endOffset":26}}
+Perf 213  [21:34:16.975] 27::getApplicableRefactors: elapsed time (in milliseconds) 0.5117
+Info 214  [21:34:16.975] response:
+    {"seq":0,"type":"response","command":"getApplicableRefactors","request_seq":27,"success":true,"body":[]}
+Info 215  [21:34:17.104] request:
+    {"command":"geterr","seq":28,"type":"request","arguments":{"delay":0,"files":["/home/yyoncho/Sources/my-app/.eslintrc.js"]}}
+Perf 216  [21:34:17.105] 28::geterr: async elapsed time (in milliseconds) 0.1709
+Info 217  [21:34:17.107] event:
+    {"seq":0,"type":"event","event":"syntaxDiag","body":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","diagnostics":[{"start":{"line":2,"offset":10},"end":{"line":2,"offset":11},"text":"';' expected.","code":1005,"category":"error"},{"start":{"line":3,"offset":18},"end":{"line":3,"offset":19},"text":"';' expected.","code":1005,"category":"error"},{"start":{"line":4,"offset":14},"end":{"line":4,"offset":15},"text":"';' expected.","code":1005,"category":"error"},{"start":{"line":5,"offset":6},"end":{"line":5,"offset":7},"text":"Declaration or statement expected.","code":1128,"category":"error"},{"start":{"line":6,"offset":14},"end":{"line":6,"offset":15},"text":"';' expected.","code":1005,"category":"error"},{"start":{"line":10,"offset":14},"end":{"line":10,"offset":15},"text":"';' expected.","code":1005,"category":"error"},{"start":{"line":11,"offset":18},"end":{"line":11,"offset":19},"text":"';' expected.","code":1005,"category":"error"},{"start":{"line":12,"offset":28},"end":{"line":12,"offset":29},"text":"';' expected.","code":1005,"category":"error"},{"start":{"line":13,"offset":6},"end":{"line":13,"offset":7},"text":"Declaration or statement expected.","code":1128,"category":"error"},{"start":{"line":14,"offset":20},"end":{"line":14,"offset":21},"text":"';' expected.","code":1005,"category":"error"},{"start":{"line":15,"offset":23},"end":{"line":15,"offset":24},"text":"';' expected.","code":1005,"category":"error"},{"start":{"line":16,"offset":18},"end":{"line":16,"offset":19},"text":"';' expected.","code":1005,"category":"error"},{"start":{"line":17,"offset":10},"end":{"line":17,"offset":11},"text":"Declaration or statement expected.","code":1128,"category":"error"},{"start":{"line":18,"offset":22},"end":{"line":18,"offset":23},"text":"';' expected.","code":1005,"category":"error"},{"start":{"line":19,"offset":21},"end":{"line":19,"offset":22},"text":"';' expected.","code":1005,"category":"error"},{"start":{"line":20,"offset":6},"end":{"line":20,"offset":7},"text":"Declaration or statement expected.","code":1128,"category":"error"},{"start":{"line":21,"offset":14},"end":{"line":21,"offset":15},"text":"';' expected.","code":1005,"category":"error"},{"start":{"line":24,"offset":12},"end":{"line":24,"offset":13},"text":"';' expected.","code":1005,"category":"error"},{"start":{"line":25,"offset":24},"end":{"line":25,"offset":25},"text":"';' expected.","code":1005,"category":"error"}]}}
+Info 218  [21:34:17.113] event:
+    {"seq":0,"type":"event","event":"semanticDiag","body":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","diagnostics":[]}}
+Info 219  [21:34:17.115] event:
+    {"seq":0,"type":"event","event":"suggestionDiag","body":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","diagnostics":[]}}
+Info 220  [21:34:17.116] event:
+    {"seq":0,"type":"event","event":"requestCompleted","body":{"request_seq":28}}
+Info 221  [21:34:17.261] request:
+    {"command":"getCodeFixes","seq":29,"type":"request","arguments":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","startLine":25,"startOffset":26,"endLine":25,"endOffset":26,"errorCodes":[1005]}}
+Perf 222  [21:34:17.262] 29::getCodeFixes: elapsed time (in milliseconds) 0.7586
+Info 223  [21:34:17.262] response:
+    {"seq":0,"type":"response","command":"getCodeFixes","request_seq":29,"success":true,"body":[]}
+Info 224  [21:34:17.262] request:
+    {"command":"getApplicableRefactors","seq":30,"type":"request","arguments":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","startLine":25,"startOffset":26,"endLine":25,"endOffset":26}}
+Perf 225  [21:34:17.262] 30::getApplicableRefactors: elapsed time (in milliseconds) 0.4244
+Info 226  [21:34:17.262] response:
+    {"seq":0,"type":"response","command":"getApplicableRefactors","request_seq":30,"success":true,"body":[]}
+Info 227  [21:34:21.231] sysLog:: onTimerToUpdateChildWatches:: 1
+Info 228  [21:34:21.232] sysLog:: invokingWatchers:: 1ms:: 0
+Info 229  [21:34:21.232] DirectoryWatcher:: Triggered with /home/yyoncho/Sources/my-app/.eslintrc.js 0:: WatchInfo: /home/yyoncho/Sources/my-app 1 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Wild card directory
+Info 230  [21:34:21.233] Scheduled: /home/yyoncho/Sources/my-app/jsconfig.json
+Info 231  [21:34:21.233] Scheduled: *ensureProjectForOpenFiles*
+Info 232  [21:34:21.233] Elapsed:: 1ms DirectoryWatcher:: Triggered with /home/yyoncho/Sources/my-app/.eslintrc.js 0:: WatchInfo: /home/yyoncho/Sources/my-app 1 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Wild card directory
+Info 233  [21:34:21.233] DirectoryWatcher:: Triggered with /home/yyoncho/Sources/my-app/.eslintrc.json 1:: WatchInfo: /home/yyoncho/Sources/my-app 1 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Wild card directory
+Info 234  [21:34:21.233] Project: /home/yyoncho/Sources/my-app/jsconfig.json Detected file add/remove of non supported extension: /home/yyoncho/Sources/my-app/.eslintrc.json
+Info 235  [21:34:21.233] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/yyoncho/Sources/my-app/.eslintrc.json 1:: WatchInfo: /home/yyoncho/Sources/my-app 1 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Wild card directory
+Info 236  [21:34:21.233] sysLog:: Elapsed 2ms:: onTimerToUpdateChildWatches:: 0 undefined
+Info 237  [21:34:21.483] Running: /home/yyoncho/Sources/my-app/jsconfig.json
+Info 238  [21:34:21.487] Starting updateGraphWorker: Project: /home/yyoncho/Sources/my-app/jsconfig.json
+Info 239  [21:34:21.489] Finishing updateGraphWorker: Project: /home/yyoncho/Sources/my-app/jsconfig.json Version: 4 structureChanged: false Elapsed: 2ms
+Info 240  [21:34:23.734] Running: *ensureProjectForOpenFiles*
+Info 241  [21:34:23.734] Before ensureProjectForOpenFiles:
+Info 242  [21:34:23.734] Project '/home/yyoncho/Sources/my-app/jsconfig.json' (Configured)
+Info 242  [21:34:23.734] 	Files (145)
+
+Info 242  [21:34:23.734] -----------------------------------------------
+Info 242  [21:34:23.734] Project '/dev/null/inferredProject1*' (Inferred)
+Info 242  [21:34:23.734] 	Files (137)
+
+Info 242  [21:34:23.734] -----------------------------------------------
+Info 242  [21:34:23.734] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 242  [21:34:23.734] 	Files (58)
+
+Info 242  [21:34:23.734] -----------------------------------------------
+Info 242  [21:34:23.734] Open files: 
+Info 242  [21:34:23.734] 	FileName: /home/yyoncho/Sources/my-app/.eslintrc.js ProjectRootPath: /home/yyoncho/Sources/my-app
+Info 242  [21:34:23.735] 		Projects: /dev/null/inferredProject1*
+Info 242  [21:34:23.735] After ensureProjectForOpenFiles:
+Info 243  [21:34:23.735] Project '/home/yyoncho/Sources/my-app/jsconfig.json' (Configured)
+Info 243  [21:34:23.735] 	Files (145)
+
+Info 243  [21:34:23.735] -----------------------------------------------
+Info 243  [21:34:23.735] Project '/dev/null/inferredProject1*' (Inferred)
+Info 243  [21:34:23.735] 	Files (137)
+
+Info 243  [21:34:23.735] -----------------------------------------------
+Info 243  [21:34:23.735] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 243  [21:34:23.735] 	Files (58)
+
+Info 243  [21:34:23.735] -----------------------------------------------
+Info 243  [21:34:23.735] Open files: 
+Info 243  [21:34:23.735] 	FileName: /home/yyoncho/Sources/my-app/.eslintrc.js ProjectRootPath: /home/yyoncho/Sources/my-app
+Info 243  [21:34:23.735] 		Projects: /dev/null/inferredProject1*
+Info 243  [21:34:23.735] got projects updated in background, updating diagnostics for /home/yyoncho/Sources/my-app/.eslintrc.js
+Info 244  [21:34:23.735] event:
+    {"seq":0,"type":"event","event":"projectsUpdatedInBackground","body":{"openFiles":["/home/yyoncho/Sources/my-app/.eslintrc.js"]}}
+Info 245  [21:34:23.838] event:
+    {"seq":0,"type":"event","event":"syntaxDiag","body":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","diagnostics":[{"start":{"line":2,"offset":10},"end":{"line":2,"offset":11},"text":"';' expected.","code":1005,"category":"error"},{"start":{"line":3,"offset":18},"end":{"line":3,"offset":19},"text":"';' expected.","code":1005,"category":"error"},{"start":{"line":4,"offset":14},"end":{"line":4,"offset":15},"text":"';' expected.","code":1005,"category":"error"},{"start":{"line":5,"offset":6},"end":{"line":5,"offset":7},"text":"Declaration or statement expected.","code":1128,"category":"error"},{"start":{"line":6,"offset":14},"end":{"line":6,"offset":15},"text":"';' expected.","code":1005,"category":"error"},{"start":{"line":10,"offset":14},"end":{"line":10,"offset":15},"text":"';' expected.","code":1005,"category":"error"},{"start":{"line":11,"offset":18},"end":{"line":11,"offset":19},"text":"';' expected.","code":1005,"category":"error"},{"start":{"line":12,"offset":28},"end":{"line":12,"offset":29},"text":"';' expected.","code":1005,"category":"error"},{"start":{"line":13,"offset":6},"end":{"line":13,"offset":7},"text":"Declaration or statement expected.","code":1128,"category":"error"},{"start":{"line":14,"offset":20},"end":{"line":14,"offset":21},"text":"';' expected.","code":1005,"category":"error"},{"start":{"line":15,"offset":23},"end":{"line":15,"offset":24},"text":"';' expected.","code":1005,"category":"error"},{"start":{"line":16,"offset":18},"end":{"line":16,"offset":19},"text":"';' expected.","code":1005,"category":"error"},{"start":{"line":17,"offset":10},"end":{"line":17,"offset":11},"text":"Declaration or statement expected.","code":1128,"category":"error"},{"start":{"line":18,"offset":22},"end":{"line":18,"offset":23},"text":"';' expected.","code":1005,"category":"error"},{"start":{"line":19,"offset":21},"end":{"line":19,"offset":22},"text":"';' expected.","code":1005,"category":"error"},{"start":{"line":20,"offset":6},"end":{"line":20,"offset":7},"text":"Declaration or statement expected.","code":1128,"category":"error"},{"start":{"line":21,"offset":14},"end":{"line":21,"offset":15},"text":"';' expected.","code":1005,"category":"error"},{"start":{"line":24,"offset":12},"end":{"line":24,"offset":13},"text":"';' expected.","code":1005,"category":"error"},{"start":{"line":25,"offset":24},"end":{"line":25,"offset":25},"text":"';' expected.","code":1005,"category":"error"}]}}
+Info 246  [21:34:23.838] event:
+    {"seq":0,"type":"event","event":"semanticDiag","body":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","diagnostics":[]}}
+Info 247  [21:34:23.838] event:
+    {"seq":0,"type":"event","event":"suggestionDiag","body":{"file":"/home/yyoncho/Sources/my-app/.eslintrc.js","diagnostics":[]}}
+Info 248  [21:38:36.588] sysLog:: /home/yyoncho/.cache/typescript/4.0/node_modules/types-registry:: Changing watcher to MissingFileSystemEntryWatcher
+Info 249  [21:38:36.588] DirectoryWatcher:: Triggered with /home/yyoncho/.cache/typescript/4.0/node_modules/types-registry :: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Failed Lookup Locations
+Info 250  [21:38:36.588] Scheduled: /home/yyoncho/Sources/my-app/jsconfig.jsonFailedLookupInvalidation
+Info 251  [21:38:36.589] Elapsed:: 1ms DirectoryWatcher:: Triggered with /home/yyoncho/.cache/typescript/4.0/node_modules/types-registry :: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Failed Lookup Locations
+Info 252  [21:38:36.589] DirectoryWatcher:: Triggered with /home/yyoncho/.cache/typescript/4.0/node_modules/types-registry :: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 253  [21:38:36.589] Scheduled: /dev/null/inferredProject1*FailedLookupInvalidation
+Info 254  [21:38:36.589] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/yyoncho/.cache/typescript/4.0/node_modules/types-registry :: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 255  [21:38:37.90] sysLog:: /home/yyoncho/.cache/typescript/4.0/node_modules/types-registry:: Changing watcher to PresentFileSystemEntryWatcher
+Info 256  [21:38:37.588] Running: /home/yyoncho/Sources/my-app/jsconfig.jsonFailedLookupInvalidation
+Info 257  [21:38:37.592] Running: /dev/null/inferredProject1*FailedLookupInvalidation
+Info 258  [21:38:38.91] sysLog:: onTimerToUpdateChildWatches:: 2
+Info 259  [21:38:38.92] sysLog:: invokingWatchers:: 1ms:: 0
+Info 260  [21:38:38.92] DirectoryWatcher:: Triggered with /home/yyoncho/.cache/typescript/4.0/node_modules/types-registry/README.md 0:: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Failed Lookup Locations
+Info 261  [21:38:38.92] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/yyoncho/.cache/typescript/4.0/node_modules/types-registry/README.md 0:: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Failed Lookup Locations
+Info 262  [21:38:38.92] DirectoryWatcher:: Triggered with /home/yyoncho/.cache/typescript/4.0/node_modules/types-registry/index.json 1:: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Failed Lookup Locations
+Info 263  [21:38:38.92] Scheduled: /home/yyoncho/Sources/my-app/jsconfig.jsonFailedLookupInvalidation
+Info 264  [21:38:38.92] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/yyoncho/.cache/typescript/4.0/node_modules/types-registry/index.json 1:: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Failed Lookup Locations
+Info 265  [21:38:38.92] DirectoryWatcher:: Triggered with /home/yyoncho/.cache/typescript/4.0/node_modules/types-registry/package.json 2:: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Failed Lookup Locations
+Info 266  [21:38:38.93] Scheduled: /home/yyoncho/Sources/my-app/jsconfig.jsonFailedLookupInvalidation, Cancelled earlier one
+Info 267  [21:38:38.93] Elapsed:: 1ms DirectoryWatcher:: Triggered with /home/yyoncho/.cache/typescript/4.0/node_modules/types-registry/package.json 2:: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Failed Lookup Locations
+Info 268  [21:38:38.93] DirectoryWatcher:: Triggered with /home/yyoncho/.cache/typescript/4.0/node_modules/types-registry 3:: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Failed Lookup Locations
+Info 269  [21:38:38.93] Scheduled: /home/yyoncho/Sources/my-app/jsconfig.jsonFailedLookupInvalidation, Cancelled earlier one
+Info 270  [21:38:38.93] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/yyoncho/.cache/typescript/4.0/node_modules/types-registry 3:: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Failed Lookup Locations
+Info 271  [21:38:38.93] DirectoryWatcher:: Triggered with /home/yyoncho/.cache/typescript/4.0/node_modules/types-registry 4:: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Failed Lookup Locations
+Info 272  [21:38:38.93] Scheduled: /home/yyoncho/Sources/my-app/jsconfig.jsonFailedLookupInvalidation, Cancelled earlier one
+Info 273  [21:38:38.93] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/yyoncho/.cache/typescript/4.0/node_modules/types-registry 4:: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Failed Lookup Locations
+Info 274  [21:38:38.93] DirectoryWatcher:: Triggered with /home/yyoncho/.cache/typescript/4.0/node_modules/types-registry 5:: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Failed Lookup Locations
+Info 275  [21:38:38.93] Scheduled: /home/yyoncho/Sources/my-app/jsconfig.jsonFailedLookupInvalidation, Cancelled earlier one
+Info 276  [21:38:38.93] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/yyoncho/.cache/typescript/4.0/node_modules/types-registry 5:: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /home/yyoncho/Sources/my-app/jsconfig.json WatchType: Failed Lookup Locations
+Info 277  [21:38:38.93] DirectoryWatcher:: Triggered with /home/yyoncho/.cache/typescript/4.0/node_modules/types-registry/README.md 0:: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 278  [21:38:38.93] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/yyoncho/.cache/typescript/4.0/node_modules/types-registry/README.md 0:: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 279  [21:38:38.93] DirectoryWatcher:: Triggered with /home/yyoncho/.cache/typescript/4.0/node_modules/types-registry/index.json 1:: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 280  [21:38:38.93] Scheduled: /dev/null/inferredProject1*FailedLookupInvalidation
+Info 281  [21:38:38.93] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/yyoncho/.cache/typescript/4.0/node_modules/types-registry/index.json 1:: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 282  [21:38:38.93] DirectoryWatcher:: Triggered with /home/yyoncho/.cache/typescript/4.0/node_modules/types-registry/package.json 2:: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 283  [21:38:38.93] Scheduled: /dev/null/inferredProject1*FailedLookupInvalidation, Cancelled earlier one
+Info 284  [21:38:38.93] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/yyoncho/.cache/typescript/4.0/node_modules/types-registry/package.json 2:: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 285  [21:38:38.93] DirectoryWatcher:: Triggered with /home/yyoncho/.cache/typescript/4.0/node_modules/types-registry 3:: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 286  [21:38:38.93] Scheduled: /dev/null/inferredProject1*FailedLookupInvalidation, Cancelled earlier one
+Info 287  [21:38:38.93] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/yyoncho/.cache/typescript/4.0/node_modules/types-registry 3:: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 288  [21:38:38.93] DirectoryWatcher:: Triggered with /home/yyoncho/.cache/typescript/4.0/node_modules/types-registry 4:: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 289  [21:38:38.93] Scheduled: /dev/null/inferredProject1*FailedLookupInvalidation, Cancelled earlier one
+Info 290  [21:38:38.93] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/yyoncho/.cache/typescript/4.0/node_modules/types-registry 4:: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 291  [21:38:38.93] DirectoryWatcher:: Triggered with /home/yyoncho/.cache/typescript/4.0/node_modules/types-registry 5:: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 292  [21:38:38.93] Scheduled: /dev/null/inferredProject1*FailedLookupInvalidation, Cancelled earlier one
+Info 293  [21:38:38.93] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/yyoncho/.cache/typescript/4.0/node_modules/types-registry 5:: WatchInfo: /home/yyoncho/.cache/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 294  [21:38:38.93] sysLog:: Elapsed 2ms:: onTimerToUpdateChildWatches:: 0 undefined
+Info 295  [21:38:39.93] Running: /home/yyoncho/Sources/my-app/jsconfig.jsonFailedLookupInvalidation
+Info 296  [21:38:39.100] Running: /dev/null/inferredProject1*FailedLookupInvalidation
